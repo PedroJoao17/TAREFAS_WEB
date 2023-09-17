@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela do Brasileirão</title>
+</head>
+
+<body>
+    <main>
+        
+        <table align="center" cellspacing="3">
+            <thead>
+                <tr>
+                    <td colspan="3">Clube</td>
+                    <td>Pts</td>
+                    <td>PJ</td>
+                    <td>VIT</td>
+                    <td>E</td>
+                    <td>DER</td>
+                    <td>GM</td>
+                    <td>GC</td>
+                    <td>SG</td>
+                    <td>Últimas 5</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="center">1</td>
+                    <td><img height="15px"
+                            src="https://ssl.gstatic.com/onebox/media/sports/logos/KLDWYp-H8CAOT9H_JgizRg_48x48.png"
+                            alt="escudo botafogo"></td>
+                    <td width="200px">Botafogo</td>
+                    <td align="center">51</td>
+                    <td align="center">22</td>
+                    <td align="center">16</td>
+                    <td align="center">3</td>
+                    <td align="center">3</td>
+                    <td align="center">39</td>
+                    <td align="center">13</td>
+                    <td align="center">23</td>
+
+                    <td><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4IiB2aWV3Qm94PSIwIDAgMTYgMTYiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iTG9zcyI+CiAgICAgICAgICAgIDxjaXJjbGUgaWQ9Ik92YWwiIGZpbGw9IiNFQTQzMzUiIGN4PSI4IiBjeT0iOCIgcj0iOCI+PC9jaXJjbGU+CiAgICAgICAgICAgIDxwb2x5Z29uIGlkPSJQYXRoIiBmaWxsPSIjRkZGRkZGIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4LjAwMDAwMCwgOC4wMDAwMDApIHJvdGF0ZSgtMzE1LjAwMDAwMCkgdHJhbnNsYXRlKC04LjAwMDAwMCwgLTguMDAwMDAwKSAiIHBvaW50cz0iMTIgOC44IDguOCA4LjggOC44IDEyIDcuMiAxMiA3LjIgOC44IDQgOC44IDQgNy4yIDcuMiA3LjIgNy4yIDQgOC44IDQgOC44IDcuMiAxMiA3LjIiPjwvcG9seWdvbj4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPgo="
+                            alt="">
+                        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4IiB2aWV3Qm94PSIwIDAgMTYgMTYiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iV2luIj4KICAgICAgICAgICAgPGNpcmNsZSBpZD0iT3ZhbCIgZmlsbD0iIzNBQTc1NyIgY3g9IjgiIGN5PSI4IiByPSI4Ij48L2NpcmNsZT4KICAgICAgICAgICAgPHBvbHlnb24gaWQ9IlBhdGgiIGZpbGw9IiNGRkZGRkYiIGZpbGwtcnVsZT0ibm9uemVybyIgcG9pbnRzPSI2LjQgOS43NiA0LjMyIDcuNjggMy4yIDguOCA2LjQgMTIgMTIuOCA1LjYgMTEuNjggNC40OCI+PC9wb2x5Z29uPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+Cg=="
+                            alt="">
+                        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4IiB2aWV3Qm94PSIwIDAgMTYgMTYiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iRHJhdyI+CiAgICAgICAgICAgIDxjaXJjbGUgaWQ9Ik92YWwiIGZpbGw9IiM5QUEwQTYiIGN4PSI4IiBjeT0iOCIgcj0iOCI+PC9jaXJjbGU+CiAgICAgICAgICAgIDxwb2x5Z29uIGlkPSJQYXRoIiBmaWxsPSIjRkZGRkZGIiBwb2ludHM9IjUgNyAxMSA3IDExIDkgNSA5Ij48L3BvbHlnb24+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4K"
+                            alt="">
+                        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4IiB2aWV3Qm94PSIwIDAgMTYgMTYiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iV2luIj4KICAgICAgICAgICAgPGNpcmNsZSBpZD0iT3ZhbCIgZmlsbD0iIzNBQTc1NyIgY3g9IjgiIGN5PSI4IiByPSI4Ij48L2NpcmNsZT4KICAgICAgICAgICAgPHBvbHlnb24gaWQ9IlBhdGgiIGZpbGw9IiNGRkZGRkYiIGZpbGwtcnVsZT0ibm9uemVybyIgcG9pbnRzPSI2LjQgOS43NiA0LjMyIDcuNjggMy4yIDguOCA2LjQgMTIgMTIuOCA1LjYgMTEuNjggNC40OCI+PC9wb2x5Z29uPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+Cg=="
+                            alt="">
+                        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4IiB2aWV3Qm94PSIwIDAgMTYgMTYiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iRHJhdyI+CiAgICAgICAgICAgIDxjaXJjbGUgaWQ9Ik92YWwiIGZpbGw9IiM5QUEwQTYiIGN4PSI4IiBjeT0iOCIgcj0iOCI+PC9jaXJjbGU+CiAgICAgICAgICAgIDxwb2x5Z29uIGlkPSJQYXRoIiBmaWxsPSIjRkZGRkZGIiBwb2ludHM9IjUgNyAxMSA3IDExIDkgNSA5Ij48L3BvbHlnb24+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4K"
+                            alt="">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">2</td>
+                    <td><img height="15px"
+                            src="https://ssl.gstatic.com/onebox/media/sports/logos/7spurne-xDt2p6C0imYYNA_48x48.png"
+                            alt="escudo palmeiras"></td>
+                    <td>Palmeiras</td>
+                    <td align="center">41</td>
+                    <td align="center">22</td>
+                    <td align="center">11</td>
+                    <td align="center">8</td>
+                    <td align="center">3</td>
+                    <td align="center">37</td>
+                    <td align="center">17</td>
+                    <td align="center">20</td>
+                    <td><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4IiB2aWV3Qm94PSIwIDAgMTYgMTYiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iRHJhdyI+CiAgICAgICAgICAgIDxjaXJjbGUgaWQ9Ik92YWwiIGZpbGw9IiM5QUEwQTYiIGN4PSI4IiBjeT0iOCIgcj0iOCI+PC9jaXJjbGU+CiAgICAgICAgICAgIDxwb2x5Z29uIGlkPSJQYXRoIiBmaWxsPSIjRkZGRkZGIiBwb2ludHM9IjUgNyAxMSA3IDExIDkgNSA5Ij48L3BvbHlnb24+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4K"
+                            alt="">
+                        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4IiB2aWV3Qm94PSIwIDAgMTYgMTYiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iV2luIj4KICAgICAgICAgICAgPGNpcmNsZSBpZD0iT3ZhbCIgZmlsbD0iIzNBQTc1NyIgY3g9IjgiIGN5PSI4IiByPSI4Ij48L2NpcmNsZT4KICAgICAgICAgICAgPHBvbHlnb24gaWQ9IlBhdGgiIGZpbGw9IiNGRkZGRkYiIGZpbGwtcnVsZT0ibm9uemVybyIgcG9pbnRzPSI2LjQgOS43NiA0LjMyIDcuNjggMy4yIDguOCA2LjQgMTIgMTIuOCA1LjYgMTEuNjggNC40OCI+PC9wb2x5Z29uPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+Cg=="
+                            alt=""> <img
+                            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4IiB2aWV3Qm94PSIwIDAgMTYgMTYiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iV2luIj4KICAgICAgICAgICAgPGNpcmNsZSBpZD0iT3ZhbCIgZmlsbD0iIzNBQTc1NyIgY3g9IjgiIGN5PSI4IiByPSI4Ij48L2NpcmNsZT4KICAgICAgICAgICAgPHBvbHlnb24gaWQ9IlBhdGgiIGZpbGw9IiNGRkZGRkYiIGZpbGwtcnVsZT0ibm9uemVybyIgcG9pbnRzPSI2LjQgOS43NiA0LjMyIDcuNjggMy4yIDguOCA2LjQgMTIgMTIuOCA1LjYgMTEuNjggNC40OCI+PC9wb2x5Z29uPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+Cg=="
+                            alt=""> <img
+                            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4IiB2aWV3Qm94PSIwIDAgMTYgMTYiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iV2luIj4KICAgICAgICAgICAgPGNpcmNsZSBpZD0iT3ZhbCIgZmlsbD0iIzNBQTc1NyIgY3g9IjgiIGN5PSI4IiByPSI4Ij48L2NpcmNsZT4KICAgICAgICAgICAgPHBvbHlnb24gaWQ9IlBhdGgiIGZpbGw9IiNGRkZGRkYiIGZpbGwtcnVsZT0ibm9uemVybyIgcG9pbnRzPSI2LjQgOS43NiA0LjMyIDcuNjggMy4yIDguOCA2LjQgMTIgMTIuOCA1LjYgMTEuNjggNC40OCI+PC9wb2x5Z29uPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+Cg=="
+                            alt="">
+                        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4IiB2aWV3Qm94PSIwIDAgMTYgMTYiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iTG9zcyI+CiAgICAgICAgICAgIDxjaXJjbGUgaWQ9Ik92YWwiIGZpbGw9IiNFQTQzMzUiIGN4PSI4IiBjeT0iOCIgcj0iOCI+PC9jaXJjbGU+CiAgICAgICAgICAgIDxwb2x5Z29uIGlkPSJQYXRoIiBmaWxsPSIjRkZGRkZGIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4LjAwMDAwMCwgOC4wMDAwMDApIHJvdGF0ZSgtMzE1LjAwMDAwMCkgdHJhbnNsYXRlKC04LjAwMDAwMCwgLTguMDAwMDAwKSAiIHBvaW50cz0iMTIgOC44IDguOCA4LjggOC44IDEyIDcuMiAxMiA3LjIgOC44IDQgOC44IDQgNy4yIDcuMiA3LjIgNy4yIDQgOC44IDQgOC44IDcuMiAxMiA3LjIiPjwvcG9seWdvbj4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPgo="
+                            alt="">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">3</td>
+                    <td><img height="15px"
+                            src="https://ssl.gstatic.com/onebox/media/sports/logos/Ku-73v_TW9kpex-IEGb0ZA_48x48.png"
+                            alt="Escudo Grêmio"></td>
+                    <td>Grêmio</td>
+                    <td align="center">39</td>
+                    <td align="center">21</td>
+                    <td align="center">12</td>
+                    <td align="center">3</td>
+                    <td align="center">6</td>
+                    <td align="center">34</td>
+                    <td align="center">25</td>
+                    <td align="center">9</td>
+                    <td> <img src="/images/green.svg" alt=""> <img src="/images/green.svg" alt=""> <img
+                            src="/images/red.svg" alt=""> <img src="/images/green.svg" alt=""> <img
+                            src="/images/red.svg" alt="">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">4</td>
+                    <td><img height="15px"
+                            src="https://ssl.gstatic.com/onebox/media/sports/logos/orE554NToSkH6nuwofe7Yg_48x48.png"
+                            alt="Escudo Flamengo"></td>
+                    <td>Flamengo</td>
+                    <td align="center">39</td>
+                    <td align="center">22</td>
+                    <td align="center">11</td>
+                    <td align="center">6</td>
+                    <td align="center">5</td>
+                    <td align="center">36</td>
+                    <td align="center">27</td>
+                    <td align="center">9</td>
+                    <td> <img src="/images/green.svg" alt=""> <img src="/images/grey.svg" alt=""> <img
+                            src="/images/green.svg" alt=""> <img src="/images/grey.svg" alt=""> <img
+                            src="/images/red.svg" alt=""></td>
+                </tr>
+                <tr>
+                    <td align="center">5</td>
+                    <td><img height="15px"
+                            src="https://ssl.gstatic.com/onebox/media/sports/logos/fCMxMMDF2AZPU7LzYKSlig_48x48.png"
+                            alt="escudo Fluminense"></td>
+                    <td>Fluminense</td>
+                    <td align="center">38</td>
+                    <td align="center">22</td>
+                    <td align="center">11</td>
+                    <td align="center">5</td>
+                    <td align="center">6</td>
+                    <td align="center">31</td>
+                    <td align="center">22</td>
+                    <td align="center">9</td>
+                    <td> <img src="/images/green.svg" alt=""> <img src="/images/grey.svg" alt=""> <img
+                            src="/images/green.svg" alt=""> <img src="/images/red.svg" alt=""> <img
+                            src="/images/green.svg" alt=""> </td>
+                </tr>
+                <tr>
+                    <td align="center">6</td>
+                    <td><img height="15px"
+                            src="https://ssl.gstatic.com/onebox/media/sports/logos/lMyw2zn1Z4cdkaxKJWnsQw_48x48.png"
+                            alt="escudo Bragantino"></td>
+                    <td>Bragantino</td>
+                    <td align="center">36</td>
+                    <td align="center">22</td>
+                    <td align="center">9</td>
+                    <td align="center">9</td>
+                    <td align="center">4</td>
+                    <td align="center">29</td>
+                    <td align="center">21</td>
+                    <td align="center">8</td>
+                    <td> <img src="/images/grey.svg" alt=""> <img src="/images/green.svg" alt=""> <img
+                            src="/images/red.svg" alt=""> <img src="/images/grey.svg" alt=""> <img
+                            src="/images/green.svg" alt=""></td>
+                </tr>
+                <tr>
+                    <td align="center">7</td>
+                    <td><img height="15px"
+                            src="https://ssl.gstatic.com/onebox/media/sports/logos/9LkdBR4L5plovKM8eIy7nQ_48x48.png"
+                            alt="escudo Athletico-PR"></td>
+                    <td>Athletico-PR</td>
+                    <td align="center">34</td>
+                    <td align="center">22</td>
+                    <td align="center">9</td>
+                    <td align="center">7</td>
+                    <td align="center">6</td>
+                    <td align="center">32</td>
+                    <td align="center">26</td>
+                    <td align="center">6</td>
+                    <td> <img src="/images/grey.svg" alt=""> <img src="/images/grey.svg" alt=""> <img
+                            src="/images/grey.svg" alt=""> <img src="/images/green.svg" alt=""> <img
+                            src="/images/grey.svg" alt=""> </td>
+                </tr>
+                <tr>
+                    <td align="center">8</td>
+                    <td><img height="15px"
+                            src="https://ssl.gstatic.com/onebox/media/sports/logos/me10ephzRxdj45zVq1Risg_48x48.png"
+                            alt="escudo Fortaleza "></td>
+                    <td>Fortaleza</td>
+                    <td align="center">32</td>
+                    <td align="center">29</td>
+                    <td align="center">9</td>
+                    <td align="center">5</td>
+                    <td align="center">8</td>
+                    <td align="center">25</td>
+                    <td align="center">21</td>
+                    <td align="center">4</td>
+                    <td> <img src="/images/red.svg" alt=""> <img src="/images/green.svg" alt=""> <img
+                            src="/images/green.svg" alt=""> <img src="/images/green.svg" alt=""> <img
+                            src="/images/red.svg" alt=""> </td>
+                </tr>
+                <tr>
+                    <td align="center">9</td>
+                    <td><img height="15px"
+                            src="https://ssl.gstatic.com/onebox/media/sports/logos/q9fhEsgpuyRq58OgmSndcQ_48x48.png"
+                            alt="escudo atletico-mg"></td>
+                    <td>Atlético-MG</td>
+                    <td align="center">31</td>
+                    <td align="center">22</td>
+                    <td align="center">8</td>
+                    <td align="center">7</td>
+                    <td align="center">7</td>
+                    <td align="center">25</td>
+                    <td align="center">21</td>
+                    <td align="center">4</td>
+                    <td> <img src="/images/grey.svg" alt=""> <img src="/images/green.svg" alt=""> <img
+                            src="/images/red.svg" alt=""> <img src="/images/green.svg" alt=""> <img
+                            src="/images/green.svg" alt=""> </td>
+                </tr>
+                <tr>
+                    <td align="center">10</td>
+                    <td><img height="15px"
+                            src="https://ssl.gstatic.com/onebox/media/sports/logos/j6U8Rgt_6yyf0Egs9nREXw_48x48.png"
+                            alt="escudo Cuiabá"></td>
+                    <td>Cuiabá</td>
+                    <td align="center">28</td>
+                    <td align="center">22</td>
+                    <td align="center">8</td>
+                    <td align="center">4</td>
+                    <td align="center">10</td>
+                    <td align="center">21</td>
+                    <td align="center">27</td>
+                    <td align="center">-6</td>
+                    <td> <img src="/images/red.svg" alt=""> <img src="/images/red.svg" alt=""> <img
+                            src="/images/red.svg" alt=""> <img src="/images/red.svg" alt=""> <img
+                            src="/images/green.svg" alt=""></td>
+                </tr>
+                <tr>
+                    <td align="center">11</td>
+                    <td><img height="15px"
+                            src="https://ssl.gstatic.com/onebox/media/sports/logos/4w2Z97Hf9CSOqICK3a8AxQ_48x48.png"
+                            alt="escudo Sao Paulo"></td>
+                    <td>São Paulo</td>
+                    <td align="center">28</td>
+                    <td align="center">21</td>
+                    <td align="center">7</td>
+                    <td align="center">7</td>
+                    <td align="center">7</td>
+                    <td align="center">25</td>
+                    <td align="center">21</td>
+                    <td align="center">4</td>
+                    <td> <img src="/images/red.svg" alt=""> <img src="/images/grey.svg" alt=""> <img
+                            src="/images/grey.svg" alt=""> <img src="/images/red.svg" alt=""> <img
+                            src="/images/grey.svg" alt=""></td>
+                </tr>
+                <tr>
+                    <td align="center">12</td>
+                    <td><img height="15px"
+                            src="https://ssl.gstatic.com/onebox/media/sports/logos/Tcv9X__nIh-6wFNJPMwIXQ_48x48.png"
+                            alt="escudo Cruzeiro"></td>
+                    <td>Cruzeiro</td>
+                    <td align="center">26</td>
+                    <td align="center">22</td>
+                    <td align="center">6</td>
+                    <td align="center">8</td>
+                    <td align="center">8</td>
+                    <td align="center">20</td>
+                    <td align="center">20</td>
+                    <td align="center">0</td>
+                    <td><img src="/images/grey.svg" alt=""> <img src="/images/red.svg" alt=""> <img
+                            src="/images/grey.svg" alt=""> <img src="/images/red.svg" alt=""> <img
+                            src="/images/grey.svg" alt=""></td>
+                </tr>
+                <tr>
+                    <td align="center">13</td>
+                    <td><img height="15px"
+                            src="https://ssl.gstatic.com/onebox/media/sports/logos/tCMSqgXVHROpdCpQhzTo1g_48x48.png"
+                            alt="escudo Corinthians"></td>
+                    <td>Corinthians</td>
+                    <td align="center">26</td>
+                    <td align="center">21</td>
+                    <td align="center">6</td>
+                    <td align="center">8</td>
+                    <td align="center">7</td>
+                    <td align="center">22</td>
+                    <td align="center">23</td>
+                    <td align="center">-1</td>
+                    <td><img src="/images/grey.svg" alt=""> <img src="/images/grey.svg" alt=""> <img
+                            src="/images/grey.svg" alt=""> <img src="/images/green.svg" alt=""> <img
+                            src="/images/grey.svg" alt=""></td>
+                </tr>
+                <tr>
+                    <td align="center">14</td>
+                    <td><img height="15px"
+                            src="https://ssl.gstatic.com/onebox/media/sports/logos/OWVFKuHrQuf4q2Wk0hEmSA_48x48.png"
+                            alt="escudo Internacional"></td>
+                    <td>Internacional</td>
+                    <td align="center">26</td>
+                    <td align="center">22</td>
+                    <td align="center">6</td>
+                    <td align="center">7</td>
+                    <td align="center">9</td>
+                    <td align="center">20</td>
+                    <td align="center">29</td>
+                    <td align="center">-9</td>
+                    <td><img src="/images/grey.svg" alt=""> <img src="/images/grey.svg" alt=""> <img
+                            src="/images/red.svg" alt=""> <img src="/images/red.svg" alt=""> <img src="/images/grey.svg"
+                            alt=""></td>
+                </tr>
+                <tr>
+                    <td align="center">15</td>
+                    <td><img height="15px"
+                            src="https://ssl.gstatic.com/onebox/media/sports/logos/gb8bo2x00XsbvsVp9nGniA_48x48.png"
+                            alt="escudo Goias"></td>
+                    <td>Goías</td>
+                    <td align="center">25</td>
+                    <td align="center">22</td>
+                    <td align="center">6</td>
+                    <td align="center">7</td>
+                    <td align="center">9</td>
+                    <td align="center">20</td>
+                    <td align="center">29</td>
+                    <td align="center">-9</td>
+                    <td> <img src="/images/grey.svg" alt=""> <img src="/images/grey.svg" alt=""> <img
+                            src="/images/grey.svg" alt=""> <img src="/images/green.svg" alt=""> <img
+                            src="/images/green.svg" alt=""> </td>
+                </tr>
+                <tr>
+                    <td align="center">16</td>
+                    <td><img height="15px"
+                            src="https://ssl.gstatic.com/onebox/media/sports/logos/nIdbR6qIUDyZUBO9vojSPw_48x48.png"
+                            alt="escudo Bahia"></td>
+                    <td>Bahia</td>
+                    <td align="center">22</td>
+                    <td align="center">22</td>
+                    <td align="center">5</td>
+                    <td align="center">7</td>
+                    <td align="center">10</td>
+                    <td align="center">23</td>
+                    <td align="center">29</td>
+                    <td align="center">-6</td>
+                    <td><img src="/images/grey.svg" alt=""> <img src="/images/red.svg" alt=""> <img
+                            src="/images/green.svg" alt=""> <img src="/images/red.svg" alt=""> <img
+                            src="/images/green.svg" alt=""></td>
+                </tr>
+                <tr>
+                    <td align="center">17</td>
+                    <td><img height="15px"
+                            src="https://ssl.gstatic.com/onebox/media/sports/logos/VHdNOT6wWOw_vJ38GMjMzg_48x48.png"
+                            alt="escudo Santos"></td>
+                    <td>Santos</td>
+                    <td align="center">21</td>
+                    <td align="center">22</td>
+                    <td align="center">5</td>
+                    <td align="center">6</td>
+                    <td align="center">11</td>
+                    <td align="center">21</td>
+                    <td align="center">-36</td>
+                    <td align="center">15</td>
+                    <td><img src="/images/red.svg" alt=""> <img src="/images/red.svg" alt=""> <img
+                            src="/images/green.svg" alt=""> <img src="/images/red.svg" alt=""> <img
+                            src="/images/grey.svg" alt=""></td>
+                </tr>
+                <tr>
+                    <td align="center">18</td>
+                    <td><img height="15px"
+                            src="https://ssl.gstatic.com/onebox/media/sports/logos/hHwT8LwRmYCAGxQ-STLxYA_48x48.png"
+                            alt="escudo Vasco"></td>
+                    <td>Vasco da Gama</td>
+                    <td align="center">17</td>
+                    <td align="center">21</td>
+                    <td align="center">4</td>
+                    <td align="center">5</td>
+                    <td align="center">12</td>
+                    <td align="center">16</td>
+                    <td align="center">31</td>
+                    <td align="center">-15</td>
+                    <td><img src="/images/grey.svg" alt=""> <img src="/images/red.svg" alt=""> <img
+                            src="/images/green.svg" alt=""> <img src="/images/grey.svg" alt=""> <img
+                            src="/images/green.svg" alt=""></td>
+                </tr>
+                <tr>
+                    <td align="center">19</td>
+                    <td><img height="15px"
+                            src="https://ssl.gstatic.com/onebox/media/sports/logos/ZFsHqGsKNQPlCQjZ4Lu-EQ_48x48.png"
+                            alt="escudo America-mg"></td>
+                    <td>América-MG</td>
+                    <td align="center">16</td>
+                    <td align="center">21</td>
+                    <td align="center">4</td>
+                    <td align="center">4</td>
+                    <td align="center">13</td>
+                    <td align="center">24</td>
+                    <td align="center">45</td>
+                    <td align="center">-21</td>
+                    <td><img src="/images/green.svg" alt=""> <img src="/images/green.svg" alt=""> <img
+                            src="/images/red.svg" alt=""> <img src="/images/red.svg" alt=""> <img src="/images/red.svg"
+                            alt=""></td>
+                </tr>
+                <tr>
+                    <td align="center">20</td>
+                    <td><img height="15px"
+                            src="https://ssl.gstatic.com/onebox/media/sports/logos/LaFlBADLmsjHfGTehCYtuA_48x48.png"
+                            alt="escudo Coritiba"></td>
+                    <td>Coritiba</td>
+                    <td align="center">14</td>
+                    <td align="center">21</td>
+                    <td align="center">3</td>
+                    <td align="center">5</td>
+                    <td align="center">13</td>
+                    <td align="center">21</td>
+                    <td align="center">42</td>
+                    <td align="center">-21</td>
+                    <td><img src="/images/red.svg" alt=""> <img src="/images/red.svg" alt=""> <img src="/images/red.svg"
+                            alt=""> <img src="/images/red.svg" alt=""> <img src="/images/red.svg" alt=""></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+
+</html>
